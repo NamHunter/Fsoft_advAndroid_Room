@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/saleFragment"
+        android:title="@string/sale"
+        android:icon="@drawable/ic_sale"/>
+    <item android:id="@+id/refundFragment"
+        android:checked="true"
+        android:title="@string/refund"
+        android:icon="@drawable/ic_refund"/>
+    <item android:id="@+id/showFragment"
+        android:title="@string/revenue"
+        android:icon="@drawable/ic_bill"/>
+</menu>

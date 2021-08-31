@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="StyleTittleTextView">
+        <item name="android:textSize">35sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.MaterialComponents.TextInputLayout.FilledBox.StyleInput">
+        <item name="boxBackgroundColor">@color/white</item>
+        <item name="boxStrokeColor">@color/black</item>
+
+    </style>
+</resources>

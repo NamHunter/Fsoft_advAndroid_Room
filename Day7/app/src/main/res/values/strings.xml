@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Day7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="amount">Amount: </string>
+    <string name="holder_name">Holder Name: </string>
+    <string name="sale">Sale: </string>
+    <string name="refund">Refund</string>
+    <string name="revenue">Revenue</string>
+    <string name="list_revenue">List Revenue</string>
+    <string name="filter">Filter</string>
+    <string name="sale_product">Sale Product</string>
+    <string name="fab">fab</string>
+    <string name="type">Type:</string>
+    <string name="amount1">Amount:</string>
+    <string name="time">Time:</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="refund_product">Refund Product</string>
+    <string name="currency">Currency:</string>
+    <string name="vn">VNĐ</string>
+    <string name="usd">USD</string>
+
+    <!--    String format-->
+    <string name="amount_format" tools:ignore="DuplicateDefinition">%1$s %2$s</string>
+</resources>

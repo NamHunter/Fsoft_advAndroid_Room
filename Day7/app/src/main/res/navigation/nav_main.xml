@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/refundFragment">
+
+    <fragment
+        android:id="@+id/refundFragment"
+        android:name="com.example.day7.ui.main.fragments.RefundFragment"
+        android:label="Refund"
+        tools:layout="@layout/fragment_refund" >
+        <action
+            android:id="@+id/action_refundFragment_to_saleFragment"
+            app:destination="@id/saleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showFragment"
+        android:name="com.example.day7.ui.main.fragments.ShowFragment"
+        android:label="Sale"
+        tools:layout="@layout/fragment_sale" >
+        <action
+            android:id="@+id/action_showFragment_to_refundFragment"
+            app:destination="@id/refundFragment" />
+        <action
+            android:id="@+id/action_showFragment_to_saleFragment"
+            app:destination="@id/saleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/saleFragment"
+        android:name="com.example.day7.ui.main.fragments.SaleFragment"
+        android:label="Show"
+        tools:layout="@layout/fragment_show" />
+</navigation>
